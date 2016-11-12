@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Class Histogram</title>
+		<link rel="stylesheet" type="text/css" href="../../styles/ddox.css"/>
+		<link rel="stylesheet" href="../../prettify/prettify.css" type="text/css"/>
+		<script type="text/javascript" src="../../scripts/jquery.js">/**/</script>
+		<script type="text/javascript" src="../../scripts/ddox.js">/**/</script>
+	</head>
+	<body onload="setupDdox();">
+		<nav id="main-nav">
+						<ul class="tree-view">
+							<li class="tree-view">
+								<a href="#" class="package">cv4d</a>
+						<ul class="tree-view">
+							<li>
+								<a href="../../cv4d.html" class=" module">Package members</a>
+							</li>
+							<li>
+								<a href="../../cv4d/exception.html" class=" module">exception</a>
+							</li>
+							<li>
+								<a href="../../cv4d/image.html" class="selected module">image</a>
+							</li>
+							<li>
+								<a href="../../cv4d/matrix.html" class=" module">matrix</a>
+							</li>
+							<li>
+								<a href="../../cv4d/opencv.html" class=" module">opencv</a>
+							</li>
+						</ul>
+							</li>
+						</ul>
+				<noscript>
+					<p style="color: red">The search functionality needs JavaScript enabled</p>
+				</noscript>
+				<div id="symbolSearchPane" style="display: none">
+					<p>
+						<input id="symbolSearch" type="text" placeholder="Search for symbols" onchange="performSymbolSearch(24);" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();"/>
+					</p>
+	<ul id="symbolSearchResults" style="display: none"></ul>
+	<script type="application/javascript" src="../../symbols.js"></script>
+	<script type="application/javascript">
+var symbolSearchRootDir = "../../";
+$('#symbolSearchPane').show();
+	</script>
+				</div>
+		</nav>
+		<div id="main-contents">
+			<h1>Class Histogram</h1>
+			<section>
+				<p>ヒストグラム
+</p>
+
+					<section>
+						<h3>Inherits from</h3>
+						<ul>
+							<li>
+								<code class="prettyprint lang-d"><span class="typ">Object</span></code>
+ (base class)
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Constructors</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.this.html" class="public">
+										<code>this</code>
+									</a>
+								</td>
+								<td>コンストラクタ
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.this.html" class="protected">
+										<code>this</code>
+									</a>
+								</td>
+								<td>invariant()
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Properties</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.bins.html" class="public property"><code>bins</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">void</span><span class="pun">*</span></code></td>
+								<td>ビンに直接アクセス
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Methods</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.calculate.html" class="public">
+										<code>calculate</code>
+									</a>
+								</td>
+								<td>画像（群）のヒストグラムを計算する
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.clear.html" class="public">
+										<code>clear</code>
+									</a>
+								</td>
+								<td>ヒストグラムをクリアする
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.compare.html" class="public">
+										<code>compare</code>
+									</a>
+								</td>
+								<td>二つの密なヒストグラムを比較する
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.copy.html" class="public">
+										<code>copy</code>
+									</a>
+								</td>
+								<td>ヒストグラムのコピーを行う
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.getMinMaxValue.html" class="public">
+										<code>getMinMaxValue</code>
+									</a>
+								</td>
+								<td>最大値，最小値を持つビンを求める
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.getValue.html" class="public">
+										<code>getValue</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンへのポインタを返す
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.getValue1D.html" class="public">
+										<code>getValue1D</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンへのポインタを返す
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.getValue2D.html" class="public">
+										<code>getValue2D</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンへのポインタを返す
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.getValue3D.html" class="public">
+										<code>getValue3D</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンへのポインタを返す
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.normalize.html" class="public">
+										<code>normalize</code>
+									</a>
+								</td>
+								<td>ヒストグラムの正規化を行う
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.proxySwap.html" class="public">
+										<code>proxySwap</code>
+									</a>
+								</td>
+								<td>for swap
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.queryHistValue1D.html" class="public">
+										<code>queryHistValue1D</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンの値の問い合わせを行う
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.queryValue.html" class="public">
+										<code>queryValue</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンの値の問い合わせを行う
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.queryValue2D.html" class="public">
+										<code>queryValue2D</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンの値の問い合わせを行う
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.queryValue3D.html" class="public">
+										<code>queryValue3D</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンの値の問い合わせを行う
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.setBinRanges.html" class="public">
+										<code>setBinRanges</code>
+									</a>
+								</td>
+								<td>ヒストグラムのビンのレンジをセットする
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Histogram.threshold.html" class="public">
+										<code>threshold</code>
+									</a>
+								</td>
+								<td>ヒストグラムの閾値処理を行う
+</td>
+							</tr>
+						</table>
+					</section>
+
+			</section>
+			<section>
+				<h2>Authors</h2>
+
+			</section>
+			<section>
+				<h2>Copyright</h2>
+
+			</section>
+			<section>
+				<h2>License</h2>
+
+			</section>
+		</div>
+	</body>
+</html>

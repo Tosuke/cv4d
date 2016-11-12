@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Class UserDataImage</title>
+		<link rel="stylesheet" type="text/css" href="../../styles/ddox.css"/>
+		<link rel="stylesheet" href="../../prettify/prettify.css" type="text/css"/>
+		<script type="text/javascript" src="../../scripts/jquery.js">/**/</script>
+		<script type="text/javascript" src="../../scripts/ddox.js">/**/</script>
+	</head>
+	<body onload="setupDdox();">
+		<nav id="main-nav">
+						<ul class="tree-view">
+							<li class="tree-view">
+								<a href="#" class="package">cv4d</a>
+						<ul class="tree-view">
+							<li>
+								<a href="../../cv4d.html" class=" module">Package members</a>
+							</li>
+							<li>
+								<a href="../../cv4d/exception.html" class=" module">exception</a>
+							</li>
+							<li>
+								<a href="../../cv4d/image.html" class="selected module">image</a>
+							</li>
+							<li>
+								<a href="../../cv4d/matrix.html" class=" module">matrix</a>
+							</li>
+							<li>
+								<a href="../../cv4d/opencv.html" class=" module">opencv</a>
+							</li>
+						</ul>
+							</li>
+						</ul>
+				<noscript>
+					<p style="color: red">The search functionality needs JavaScript enabled</p>
+				</noscript>
+				<div id="symbolSearchPane" style="display: none">
+					<p>
+						<input id="symbolSearch" type="text" placeholder="Search for symbols" onchange="performSymbolSearch(24);" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();"/>
+					</p>
+	<ul id="symbolSearchResults" style="display: none"></ul>
+	<script type="application/javascript" src="../../symbols.js"></script>
+	<script type="application/javascript">
+var symbolSearchRootDir = "../../";
+$('#symbolSearchPane').show();
+	</script>
+				</div>
+		</nav>
+		<div id="main-contents">
+			<h1>Class UserDataImage</h1>
+			<section>
+				<p>ユーザーデータによる画像
+</p>
+<section><p>データの割り当てを自分で行うことができる。
+</p>
+</section>
+
+					<section>
+						<h3>Inherits from</h3>
+						<ul>
+							<li>
+								<code class="prettyprint lang-d"><a href="../../cv4d/image/Image.html"><span class="typ">Image</span></a></code>
+ (base class)
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Constructors</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/UserDataImage.this.html" class="public">
+										<code>this</code>
+									</a>
+								</td>
+								<td>コンストラクタ
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Fields</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image._image.html" class="protected inherited"><code>_image</code></a>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">IplImage</span><span class="pun">*</span></code></td>
+								<td>OpenCVで扱うことのできる生のIplImage*
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Properties</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/UserDataImage.data.html" class="public property"><code>data</code></a>
+									<span class="tableEntryAnnotation">[set]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">void</span><span class="pun">[]</span></code></td>
+								<td>データの取得/設定
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.channels.html" class="public inherited property"><code>channels</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>チャンネル数
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.coi.html" class="public inherited property"><code>coi</code></a>
+									<span class="tableEntryAnnotation">[get, set]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>COIのプロパティ
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.data.html" class="public inherited property"><code>data</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">void</span><span class="pun">[]</span></code></td>
+								<td>画素のデータにアクセス
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.depth.html" class="public inherited property"><code>depth</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>色深度
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.handle.html" class="public inherited property"><code>handle</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">IplImage</span><span class="pun">*</span></code></td>
+								<td>OpenCVでの操作用
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.height.html" class="public inherited property"><code>height</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>画像の縦幅を取得
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.origin.html" class="public inherited property"><code>origin</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>データ開始点
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.pixSize.html" class="public inherited property"><code>pixSize</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>1ピクセルのバイト数
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.roi.html" class="public inherited property"><code>roi</code></a>
+									<span class="tableEntryAnnotation">[get, set]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">CvRect</span></code></td>
+								<td>範囲の矩形プロパティ
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.roiOffset.html" class="public inherited property"><code>roiOffset</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">CvPoint</span></code></td>
+								<td>範囲の矩形のサイズ
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.roiSize.html" class="public inherited property"><code>roiSize</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">CvSize</span></code></td>
+								<td>範囲の矩形のサイズ
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.size.html" class="public inherited property"><code>size</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">CvSize</span></code></td>
+								<td>画像のサイズを取得
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.step.html" class="public inherited property"><code>step</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>1行何バイトか
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.width.html" class="public inherited property"><code>width</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>画像の横幅を取得
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Methods</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.add.html" class="public inherited">
+										<code>add</code>
+									</a>
+								</td>
+								<td>加算
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.and.html" class="public inherited">
+										<code>and</code>
+									</a>
+								</td>
+								<td>理論積
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.applyLUT.html" class="public inherited">
+										<code>applyLUT</code>
+									</a>
+								</td>
+								<td>Look up tableの適用
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.convert.html" class="public inherited">
+										<code>convert</code>
+									</a>
+								</td>
+								<td>輝度値の変更
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.convertColor.html" class="public inherited">
+										<code>convertColor</code>
+									</a>
+								</td>
+								<td>色変換
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.copy.html" class="public inherited">
+										<code>copy</code>
+									</a>
+								</td>
+								<td>コピー
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.div.html" class="public inherited">
+										<code>div</code>
+									</a>
+								</td>
+								<td>除算
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.draw.html" class="public inherited">
+										<code>draw</code>
+									</a>
+								</td>
+								<td>画像を指定位置に描写する
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.equalize.html" class="public inherited">
+										<code>equalize</code>
+									</a>
+								</td>
+								<td>自動レベル補正(イコライズ)
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.filter.html" class="public inherited">
+										<code>filter</code>
+									</a>
+								</td>
+								<td>フィルタ処理
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.fixedResample.html" class="public inherited">
+										<code>fixedResample</code>
+									</a>
+								</td>
+								<td>縦横比固定でリサンプル(クロップする)
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.flipH.html" class="public inherited">
+										<code>flipH</code>
+									</a>
+								</td>
+								<td>左右反転
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.flipV.html" class="public inherited">
+										<code>flipV</code>
+									</a>
+								</td>
+								<td>上下反転
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.flipVH.html" class="public inherited">
+										<code>flipVH</code>
+									</a>
+								</td>
+								<td>180度回転
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.makeBitmapInfo.html" class="public inherited">
+										<code>makeBitmapInfo</code>
+									</a>
+								</td>
+								<td>BitmapInformationHeaderを生成
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.merge.html" class="public inherited">
+										<code>merge</code>
+									</a>
+								</td>
+								<td>チャンネルの統合
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.mul.html" class="public inherited">
+										<code>mul</code>
+									</a>
+								</td>
+								<td>乗算
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.opBinary.html" class="public inherited">
+										<code>opBinary</code>
+									</a>
+								</td>
+								<td>二項演算子
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.opOpAssign.html" class="public inherited">
+										<code>opOpAssign</code>
+									</a>
+								</td>
+								<td>代入演算子
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.or.html" class="public inherited">
+										<code>or</code>
+									</a>
+								</td>
+								<td>理論和
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.pow.html" class="public inherited">
+										<code>pow</code>
+									</a>
+								</td>
+								<td>累乗
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.proxySwap.html" class="public inherited">
+										<code>proxySwap</code>
+									</a>
+								</td>
+								<td>for swap
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.resample.html" class="public inherited">
+										<code>resample</code>
+									</a>
+								</td>
+								<td>画像のリサンプル
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.resetRoi.html" class="public inherited">
+										<code>resetRoi</code>
+									</a>
+								</td>
+								<td>範囲をリセットする
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.roiRow.html" class="public inherited">
+										<code>roiRow</code>
+									</a>
+								</td>
+								<td>範囲の画素のデータにアクセス
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.save.html" class="public inherited">
+										<code>save</code>
+									</a>
+								</td>
+								<td>画像を指定のファイル名で保存する
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.set.html" class="public inherited">
+										<code>set</code>
+									</a>
+								</td>
+								<td>各画素に与えられた値をセットする
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.setZero.html" class="public inherited">
+										<code>setZero</code>
+									</a>
+								</td>
+								<td>全ての画素値を0にする
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.smooth.html" class="public inherited">
+										<code>smooth</code>
+									</a>
+								</td>
+								<td>スムージング
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.split.html" class="public inherited">
+										<code>split</code>
+									</a>
+								</td>
+								<td>チャンネルの抽出
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.sub.html" class="public inherited">
+										<code>sub</code>
+									</a>
+								</td>
+								<td>減算
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.threshold.html" class="public inherited">
+										<code>threshold</code>
+									</a>
+								</td>
+								<td>2値化処理
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.write.html" class="public inherited">
+										<code>write</code>
+									</a>
+								</td>
+								<td>画像の描きだし
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/Image.xor.html" class="public inherited">
+										<code>xor</code>
+									</a>
+								</td>
+								<td>排他理論和
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Aliases</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/image/UserDataImage.data.html" class="public">
+										<code>data</code>
+									</a>
+								</td>
+								<td>データの取得/設定
+</td>
+							</tr>
+						</table>
+					</section>
+
+			</section>
+			<section>
+				<h2>Authors</h2>
+
+			</section>
+			<section>
+				<h2>Copyright</h2>
+
+			</section>
+			<section>
+				<h2>License</h2>
+
+			</section>
+		</div>
+	</body>
+</html>

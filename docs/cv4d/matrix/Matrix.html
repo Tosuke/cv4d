@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Class Matrix</title>
+		<link rel="stylesheet" type="text/css" href="../../styles/ddox.css"/>
+		<link rel="stylesheet" href="../../prettify/prettify.css" type="text/css"/>
+		<script type="text/javascript" src="../../scripts/jquery.js">/**/</script>
+		<script type="text/javascript" src="../../scripts/ddox.js">/**/</script>
+	</head>
+	<body onload="setupDdox();">
+		<nav id="main-nav">
+						<ul class="tree-view">
+							<li class="tree-view">
+								<a href="#" class="package">cv4d</a>
+						<ul class="tree-view">
+							<li>
+								<a href="../../cv4d.html" class=" module">Package members</a>
+							</li>
+							<li>
+								<a href="../../cv4d/exception.html" class=" module">exception</a>
+							</li>
+							<li>
+								<a href="../../cv4d/image.html" class=" module">image</a>
+							</li>
+							<li>
+								<a href="../../cv4d/matrix.html" class="selected module">matrix</a>
+							</li>
+							<li>
+								<a href="../../cv4d/opencv.html" class=" module">opencv</a>
+							</li>
+						</ul>
+							</li>
+						</ul>
+				<noscript>
+					<p style="color: red">The search functionality needs JavaScript enabled</p>
+				</noscript>
+				<div id="symbolSearchPane" style="display: none">
+					<p>
+						<input id="symbolSearch" type="text" placeholder="Search for symbols" onchange="performSymbolSearch(24);" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();"/>
+					</p>
+	<ul id="symbolSearchResults" style="display: none"></ul>
+	<script type="application/javascript" src="../../symbols.js"></script>
+	<script type="application/javascript">
+var symbolSearchRootDir = "../../";
+$('#symbolSearchPane').show();
+	</script>
+				</div>
+		</nav>
+		<div id="main-contents">
+			<h1>Class Matrix</h1>
+			<section>
+				<p>OpenCVを利用した行列
+</p>
+
+					<section>
+						<h3>Inherits from</h3>
+						<ul>
+							<li>
+								<code class="prettyprint lang-d"><span class="typ">Object</span></code>
+ (base class)
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Constructors</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.this.html" class="public">
+										<code>this</code>
+									</a>
+								</td>
+								<td>コンストラクタ
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.this.html" class="protected">
+										<code>this</code>
+									</a>
+								</td>
+								<td>内部的にであれば何もしないコンストラクタを呼び出すことが可能
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Fields</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix._matrix.html" class="protected"><code>_matrix</code></a>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">CvMat</span><span class="pun">*</span></code></td>
+								<td>OpenCVで扱うことのできる生のCvMat*
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Properties</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.channels.html" class="public property"><code>channels</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>チャンネル数
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.cols.html" class="public property"><code>cols</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>列数
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.data.html" class="public property"><code>data</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">void</span><span class="pun">[]</span></code></td>
+								<td>行列データの要素にアクセス
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.depth.html" class="public property"><code>depth</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>深度
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.handle.html" class="public property"><code>handle</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">CvMat</span><span class="pun">*</span></code></td>
+								<td>OpenCVの関数で利用するためのデータ
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.pixSize.html" class="public property"><code>pixSize</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>1要素のサイズ
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.rows.html" class="public property"><code>rows</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>行数
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.size.html" class="public property"><code>size</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="pln">cv4d<wbr/></span><span class="pun">.</span><span class="pln">opencv<wbr/></span><span class="pun">.</span><span class="pln">core<wbr/></span><span class="pun">.</span><span class="typ">CvSize</span></code></td>
+								<td>行x列
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.step.html" class="public property"><code>step</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>1行のバイト数
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.type.html" class="public property"><code>type</code></a>
+									<span class="tableEntryAnnotation">[get]</span>
+								</td>
+								<td class="typecol"><code class="prettyprint lang-d"><span class="typ">int</span></code></td>
+								<td>行列のタイプ
+</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h3>Methods</h3>
+						<table>
+							<col class="caption"/>
+							<tr>
+								<th>Name</th>
+								<th>Description</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.add.html" class="public">
+										<code>add</code>
+									</a>
+								</td>
+								<td>加算
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.cross.html" class="public">
+										<code>cross</code>
+									</a>
+								</td>
+								<td>外積を求める
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.det.html" class="public">
+										<code>det</code>
+									</a>
+								</td>
+								<td>行列式の結果を返す
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.dot.html" class="public">
+										<code>dot</code>
+									</a>
+								</td>
+								<td>内積を求める
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.invert.html" class="public">
+										<code>invert</code>
+									</a>
+								</td>
+								<td>逆行列にする
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.normalize.html" class="public">
+										<code>normalize</code>
+									</a>
+								</td>
+								<td>正規化する
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.opBinary.html" class="public">
+										<code>opBinary</code>
+									</a>
+								</td>
+								<td>二項演算子
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.opCast.html" class="public">
+										<code>opCast</code>
+									</a>
+								</td>
+								<td>キャストオーバーロード
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.opOpAssign.html" class="public">
+										<code>opOpAssign</code>
+									</a>
+								</td>
+								<td>代入演算子
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.proxySwap.html" class="public">
+										<code>proxySwap</code>
+									</a>
+								</td>
+								<td>for swap
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.row.html" class="public">
+										<code>row</code>
+									</a>
+								</td>
+								<td>行列データの要素に行ごとにアクセス
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.save.html" class="public">
+										<code>save</code>
+									</a>
+								</td>
+								<td>ファイルに保存
+</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="../../cv4d/matrix/Matrix.write.html" class="public">
+										<code>write</code>
+									</a>
+								</td>
+								<td>ストレージに書き出し
+</td>
+							</tr>
+						</table>
+					</section>
+
+			</section>
+			<section>
+				<h2>Authors</h2>
+
+			</section>
+			<section>
+				<h2>Copyright</h2>
+
+			</section>
+			<section>
+				<h2>License</h2>
+
+			</section>
+		</div>
+	</body>
+</html>
