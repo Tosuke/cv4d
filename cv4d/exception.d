@@ -46,6 +46,7 @@ private:
 	                               in char* err_msg, in char* file_name,
 	                               int line, void* userdata )
 	{
+		import cv4d._internal.misc : fromMBSz;
 		auto hEr = cast(ErrorHandler*)userdata;
 		auto funcName = fromMBSz(cast(immutable)func_name);
 		auto errorMsg = fromMBSz(cast(immutable)err_msg);

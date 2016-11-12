@@ -2,8 +2,8 @@ License: BSD license, see also license.txt for the detail.
 
 BUILD:
 
-$ dmd -run build.d
+$ dub build -c build
 
 MAKE DOCUMENT:
 
-$ dmd -run build.d --doc
+$ dub build -b ddox

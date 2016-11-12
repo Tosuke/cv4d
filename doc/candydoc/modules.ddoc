@@ -1,0 +1,12 @@
+MODULES =
+	$(MODULE_FULL cv4d.image)
+	$(MODULE_FULL cv4d.matrix)
+	$(MODULE_FULL cv4d)
+	$(MODULE_FULL cv4d.capture)
+	$(MODULE_FULL cv4d.exception)
+	$(MODULE_FULL cv4d.util)
+	$(MODULE_FULL cv4d.opencv.imgproc)
+	$(MODULE_FULL cv4d.opencv)
+	$(MODULE_FULL cv4d.opencv.highgui)
+	$(MODULE_FULL cv4d.opencv.calib3d)
+	$(MODULE_FULL cv4d.opencv.core)

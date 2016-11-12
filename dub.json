@@ -1,0 +1,24 @@
+{
+  "name": "cv4d",
+  "description": "OpenCV for the D Programming Language",
+  "authors": [
+    "shoo"
+  ],
+  "license": "BSD 3-clause",
+
+  "dependencies": {
+    "tango": "~>1.0.3+2.068"
+  },
+
+  "targetType": "sourceLibrary",
+  "sourcePaths": [
+    "cv4d"
+  ],
+
+  "configurations": [
+    {
+      "name": "build",
+      "targetType": "staticLibrary"
+    }
+  ]
+}

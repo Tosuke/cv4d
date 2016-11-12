@@ -1,0 +1,8 @@
+.dub
+.vscode
+docs
+
+dub.selections.json
+
+docs.json
+libcv4d.*
