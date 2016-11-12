@@ -1,9 +1,0 @@
-License: BSD license, see also license.txt for the detail.
-
-BUILD:
-
-$ dub build -c build
-
-MAKE DOCUMENT:
-
-$ dub build -b ddox
