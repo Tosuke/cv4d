@@ -249,6 +249,18 @@ public:
 		if (!m) error("cannot load");
 		_matrix = m;
 	}
+
+
+	///ditto
+	this(CvMat* mat)
+	in
+	{
+		assert(mat !is null);
+	}
+	body
+	{
+		_matrix = mat;
+	}
 	
 	
 	/***************************************************************************
